@@ -12,6 +12,7 @@ MORNING_LIST = [
     'https://github.com/',
     'https://dev.to/',
     'https://www.developpez.com/',
+    'https://www.linkedin.com/',
     
     # Random
     'https://www.reddit.com/r/ProgrammerHumor/',
