@@ -36,9 +36,5 @@ def open_site(url: str, delay: int = .1) -> None:
     time.sleep(delay)
 
 
-def main():
-    [open_site(website, 1) if website == MORNING_LIST[1] else open_site(website) for website in MORNING_LIST]
-
-
 if __name__ == "__main__":
-    main()
+    [open_site(website, 1) if website == MORNING_LIST[1] else open_site(website) for website in MORNING_LIST]
