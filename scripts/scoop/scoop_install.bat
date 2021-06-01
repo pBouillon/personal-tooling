@@ -10,6 +10,7 @@ scoop install^
  dotnet-sdk^
  FiraCode^
  git^
+ gitui^
  linqpad^
  python^
  starship^
