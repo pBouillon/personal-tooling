@@ -1,5 +1,12 @@
-# life-tools
-Some useful tools to facilitate my life
+# Personal tooling
+
+My configuration files and other scripts I use to automate some tasks
+
+## Config
+
+Configuration files for my apps & environments
+
+- [profile.ps1](./config/profile.ps1) - My powershell profile, including my aliases, the autocompletion setup, etc.
 
 ## Morning routing
 
