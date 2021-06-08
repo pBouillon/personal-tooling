@@ -48,7 +48,7 @@ function OpenCurrentDirectorySolution {
     Get-ChildItem $Path -Filter "*.sln" |
     ForEach-Object {
         Write-Output "Opening solution: $($_)"
-        start $_
+        Start-Process $_
     }
 }
 Set-Alias vs OpenCurrentDirectorySolution
